@@ -17,7 +17,8 @@ Der Zinsrechner wurde als **Windows-exe-Datei** unter dem Ordner `dist` erstellt
 - Berechnung von **Endkapital und gesparter Summe** nach einer bestimmten Laufzeit.
 - **Berücksichtigung von monatlichen Sparbeträgen und Zinssatz** (p.A.).
 - Anzeige des **bereinigten Gewinns** (tatsächlicher Ertrag nach Abzug aller Einzahlungen).
-- Fehlerbehandlung für ungültige Eingaben.
+- Fehlerbehandlung für ungültige Eingaben mittels `try/except`.
+- **Algorithmus basiert auf einer verschachtelten For-Schleife**, um die Zinseszins-Berechnung präzise durchzuführen.
 
 ---
 
@@ -85,12 +86,13 @@ Falls du das Projekt erweitern willst, hier einige Ideen:
 - **Grafische Darstellung der Zinsentwicklung** mit `matplotlib`.
 - **Möglichkeit zur Speicherung der Berechnungen** als `.csv` oder `.txt`.
 - **Zusätzliche Funktionen wie Inflation oder Steuerabzug** berücksichtigen.
+- **Erweiterte Fehlerbehandlung**, um falsche Nutzereingaben noch besser abzufangen.
 
 ---
 
 ## 🌟 Fazit
-Dieses Projekt war eine spannende Einführung in **CustomTkinter**, um eine moderne und benutzerfreundliche GUI in Python zu erstellen. Durch die Verwendung von **PyInstaller** wurde eine eigenständige `.exe`-Datei erzeugt, die sofort ausgeführt werden kann.
+Dieses Projekt war eine spannende Einführung in **CustomTkinter**, um eine moderne und benutzerfreundliche GUI in Python zu erstellen. Ein besonderer Fokus lag auf der **Fehlerbehandlung mit `try/except`** sowie der **verschachtelten For-Schleife** zur Berechnung des Zinseszinses. 
+
+Durch die Verwendung von **PyInstaller** wurde eine eigenständige `.exe`-Datei erzeugt, die sofort ausgeführt werden kann.
 
 Viel Spaß beim Rechnen mit Zinsen! 🚀
-
-
