@@ -48,6 +48,8 @@ Der Zinsrechner wurde als **Windows-exe-Datei** unter dem Ordner `dist` erstellt
 ## 🛠️ Erstellen der .exe-Datei
 Falls du die Anwendung selbst in eine `.exe` umwandeln willst, kannst du **PyInstaller** nutzen:
 
+- Die .exe Datei existiert bereits unter dem `dist/` Ordner. (zum Download)
+
 1. Installiere PyInstaller:
    ```bash
    pip install pyinstaller
