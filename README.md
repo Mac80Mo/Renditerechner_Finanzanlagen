@@ -81,14 +81,6 @@ Falls du die Anwendung selbst in eine `.exe` umwandeln willst, kannst du **PyIns
 
 ---
 
-## 🔄 Weiterentwicklung
-Falls du das Projekt erweitern willst, hier einige Ideen:
-- **Grafische Darstellung der Zinsentwicklung** mit `matplotlib`.
-- **Möglichkeit zur Speicherung der Berechnungen** als `.csv` oder `.txt`.
-- **Zusätzliche Funktionen wie Inflation oder Steuerabzug** berücksichtigen.
-- **Erweiterte Fehlerbehandlung**, um falsche Nutzereingaben noch besser abzufangen.
-
----
 
 ## 🌟 Fazit
 Dieses Projekt war eine spannende Einführung in **CustomTkinter**, um eine moderne und benutzerfreundliche GUI in Python zu erstellen. Ein besonderer Fokus lag auf der **Fehlerbehandlung mit `try/except`** sowie der **verschachtelten For-Schleife** zur Berechnung des Zinseszinses. 
